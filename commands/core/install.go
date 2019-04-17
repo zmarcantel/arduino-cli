@@ -20,10 +20,10 @@ package core
 import (
 	"os"
 
-	"github.com/arduino/arduino-cli/arduino/cores"
-	"github.com/arduino/arduino-cli/arduino/cores/packagemanager"
-	"github.com/arduino/arduino-cli/commands"
-	"github.com/arduino/arduino-cli/common/formatter"
+	"github.com/zmarcantel/arduino-cli/arduino/cores"
+	"github.com/zmarcantel/arduino-cli/arduino/cores/packagemanager"
+	"github.com/zmarcantel/arduino-cli/commands"
+	"github.com/zmarcantel/arduino-cli/common/formatter"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

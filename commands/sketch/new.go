@@ -20,8 +20,8 @@ package sketch
 import (
 	"os"
 
-	"github.com/arduino/arduino-cli/commands"
-	"github.com/arduino/arduino-cli/common/formatter"
+	"github.com/zmarcantel/arduino-cli/commands"
+	"github.com/zmarcantel/arduino-cli/common/formatter"
 	"github.com/spf13/cobra"
 )
 

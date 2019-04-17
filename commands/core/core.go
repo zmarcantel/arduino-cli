@@ -18,7 +18,7 @@
 package core
 
 import (
-	"github.com/arduino/arduino-cli/commands"
+	"github.com/zmarcantel/arduino-cli/commands"
 	"github.com/spf13/cobra"
 )
 

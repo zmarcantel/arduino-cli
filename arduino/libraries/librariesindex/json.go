@@ -24,7 +24,7 @@ import (
 	"github.com/arduino/go-paths-helper"
 	semver "go.bug.st/relaxed-semver"
 
-	"github.com/arduino/arduino-cli/arduino/resources"
+	"github.com/zmarcantel/arduino-cli/arduino/resources"
 )
 
 type indexJSON struct {

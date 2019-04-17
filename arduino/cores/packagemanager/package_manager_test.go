@@ -23,9 +23,9 @@ import (
 
 	"go.bug.st/relaxed-semver"
 
-	"github.com/arduino/arduino-cli/arduino/cores"
-	"github.com/arduino/arduino-cli/arduino/cores/packagemanager"
-	"github.com/arduino/arduino-cli/configs"
+	"github.com/zmarcantel/arduino-cli/arduino/cores"
+	"github.com/zmarcantel/arduino-cli/arduino/cores/packagemanager"
+	"github.com/zmarcantel/arduino-cli/configs"
 	"github.com/arduino/go-paths-helper"
 	"github.com/arduino/go-properties-orderedmap"
 	"github.com/stretchr/testify/require"
@@ -125,7 +125,7 @@ func TestFindToolsRequiredForBoard(t *testing.T) {
 		require.NotContains(t, tools, esptool0413)
 	}
 
-	// As seen in https://github.com/arduino/arduino-cli/issues/73 the map randomess
+	// As seen in https://github.com/zmarcantel/arduino-cli/issues/73 the map randomess
 	// may make the function fail half of the times. Repeating the test 10 times
 	// greatly increases the chances to trigger the bad case.
 	testConflictingToolsInDifferentPackages()

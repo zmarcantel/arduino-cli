@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arduino/arduino-cli/configs"
+	"github.com/zmarcantel/arduino-cli/configs"
 	paths "github.com/arduino/go-paths-helper"
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/sergi/go-diff/diffmatchpatch"

@@ -25,7 +25,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/arduino/arduino-cli/auth"
+	"github.com/zmarcantel/arduino-cli/auth"
 )
 
 var (

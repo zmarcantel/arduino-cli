@@ -25,9 +25,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/arduino/arduino-cli/auth"
-	"github.com/arduino/arduino-cli/commands"
-	"github.com/arduino/arduino-cli/common/formatter"
+	"github.com/zmarcantel/arduino-cli/auth"
+	"github.com/zmarcantel/arduino-cli/commands"
+	"github.com/zmarcantel/arduino-cli/common/formatter"
 	"github.com/bgentry/go-netrc/netrc"
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/sirupsen/logrus"

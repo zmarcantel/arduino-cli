@@ -23,8 +23,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/arduino/arduino-cli/arduino/cores"
-	"github.com/arduino/arduino-cli/configs"
+	"github.com/zmarcantel/arduino-cli/arduino/cores"
+	"github.com/zmarcantel/arduino-cli/configs"
 	"github.com/arduino/go-paths-helper"
 	properties "github.com/arduino/go-properties-orderedmap"
 	"go.bug.st/relaxed-semver"

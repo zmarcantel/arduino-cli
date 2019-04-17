@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/arduino/arduino-cli/output"
+	"github.com/zmarcantel/arduino-cli/output"
 
 	"golang.org/x/crypto/ssh/terminal"
 
@@ -30,18 +30,18 @@ import (
 
 	paths "github.com/arduino/go-paths-helper"
 
-	"github.com/arduino/arduino-cli/commands"
-	"github.com/arduino/arduino-cli/commands/board"
-	"github.com/arduino/arduino-cli/commands/compile"
-	"github.com/arduino/arduino-cli/commands/config"
-	"github.com/arduino/arduino-cli/commands/core"
-	"github.com/arduino/arduino-cli/commands/generatedocs"
-	"github.com/arduino/arduino-cli/commands/lib"
-	"github.com/arduino/arduino-cli/commands/sketch"
-	"github.com/arduino/arduino-cli/commands/upload"
-	"github.com/arduino/arduino-cli/commands/version"
-	"github.com/arduino/arduino-cli/common/formatter"
-	"github.com/arduino/arduino-cli/configs"
+	"github.com/zmarcantel/arduino-cli/commands"
+	"github.com/zmarcantel/arduino-cli/commands/board"
+	"github.com/zmarcantel/arduino-cli/commands/compile"
+	"github.com/zmarcantel/arduino-cli/commands/config"
+	"github.com/zmarcantel/arduino-cli/commands/core"
+	"github.com/zmarcantel/arduino-cli/commands/generatedocs"
+	"github.com/zmarcantel/arduino-cli/commands/lib"
+	"github.com/zmarcantel/arduino-cli/commands/sketch"
+	"github.com/zmarcantel/arduino-cli/commands/upload"
+	"github.com/zmarcantel/arduino-cli/commands/version"
+	"github.com/zmarcantel/arduino-cli/common/formatter"
+	"github.com/zmarcantel/arduino-cli/configs"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

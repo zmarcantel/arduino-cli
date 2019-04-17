@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/arduino/arduino-cli/arduino/libraries"
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesmanager"
-	"github.com/arduino/arduino-cli/arduino/utils"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries/librariesmanager"
+	"github.com/zmarcantel/arduino-cli/arduino/utils"
 	"github.com/schollz/closestmatch"
 	"github.com/sirupsen/logrus"
 )

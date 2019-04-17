@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/arduino/arduino-cli/arduino/cores"
-	"github.com/arduino/arduino-cli/arduino/libraries"
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesindex"
+	"github.com/zmarcantel/arduino-cli/arduino/cores"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries/librariesindex"
 	paths "github.com/arduino/go-paths-helper"
 	"github.com/pmylund/sortutil"
 	"github.com/sirupsen/logrus"

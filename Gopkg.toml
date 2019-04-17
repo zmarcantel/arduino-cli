@@ -24,12 +24,13 @@
 #   go-tests = true
 #   unused-packages = true
 
+ignored = ["github.com/arduino/arduino-builder"]
 
 # arduino-cli requires a special version of the builder
-[[constraint]]
-  name = "github.com/arduino/arduino-builder"
+[[override]]
+  name = "github.com/zmarcantel/arduino-builder"
   branch = "cli-inception"
-  source = "github.com/arduino/arduino-builder"
+  source = "github.com/zmarcantel/arduino-builder"
 
 [[constraint]]
   branch = "master"

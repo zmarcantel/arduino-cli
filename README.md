@@ -1,4 +1,4 @@
-![Build status](https://drone.arduino.cc/api/badges/arduino/arduino-cli/status.svg)
+![Build status](https://drone.arduino.cc/api/badges/zmarcantel/arduino-cli/status.svg)
 
 # arduino-cli
 
@@ -31,7 +31,7 @@ Once downloaded, place the executable into a directory which is in your `PATH` e
 ### Build the latest "bleeding-edge" from source
 
 * You should have a recent Go compiler installed.
-* Run `go get -u github.com/arduino/arduino-cli`
+* Run `go get -u github.com/zmarcantel/arduino-cli`
 * The `arduino-cli` executable will be produced in `$GOPATH/bin/arduino-cli`
 
 You may want to copy the executable into a directory which is in your `PATH` environment variable
@@ -295,7 +295,7 @@ Flags:
   -h, --help   help for core
 
 Global Flags:
-      --config-file string   The custom config file (if not specified the default one will be used). (example  "/home/user/.config/arduino/arduino-cli/arduino-cli.yaml")
+      --config-file string   The custom config file (if not specified the default one will be used). (example  "/home/user/.config/zmarcantel/arduino-cli/arduino-cli.yaml")
       --debug                Enables debug output (super verbose, used to debug the CLI).
       --format string        The output format, can be [text|json]. (default "text")
 
@@ -324,5 +324,5 @@ Because:
 
 #### How can I find the core/FQBN for a board?
 
-See: https://github.com/arduino/arduino-cli#step-4-find-and-install-the-right-core
+See: https://github.com/zmarcantel/arduino-cli#step-4-find-and-install-the-right-core
 

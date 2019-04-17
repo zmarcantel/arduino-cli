@@ -20,7 +20,7 @@ package formatter_test
 import (
 	"fmt"
 
-	"github.com/arduino/arduino-cli/common/formatter"
+	"github.com/zmarcantel/arduino-cli/common/formatter"
 )
 
 type TestStruct struct {

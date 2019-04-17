@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/arduino/arduino-cli/arduino/libraries"
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesindex"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries/librariesindex"
 	"github.com/gosuri/uitable"
 	semver "go.bug.st/relaxed-semver"
 )

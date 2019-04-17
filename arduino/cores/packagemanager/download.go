@@ -20,7 +20,7 @@ package packagemanager
 import (
 	"fmt"
 
-	"github.com/arduino/arduino-cli/arduino/cores"
+	"github.com/zmarcantel/arduino-cli/arduino/cores"
 	"go.bug.st/downloader"
 	"go.bug.st/relaxed-semver"
 )

@@ -20,10 +20,10 @@ package librariesmanager
 import (
 	"fmt"
 
-	"github.com/arduino/arduino-cli/arduino/libraries"
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesindex"
-	"github.com/arduino/arduino-cli/arduino/utils"
-	"github.com/arduino/arduino-cli/common/formatter"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries"
+	"github.com/zmarcantel/arduino-cli/arduino/libraries/librariesindex"
+	"github.com/zmarcantel/arduino-cli/arduino/utils"
+	"github.com/zmarcantel/arduino-cli/common/formatter"
 	"github.com/arduino/go-paths-helper"
 )
 

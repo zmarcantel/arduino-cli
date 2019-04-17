@@ -22,7 +22,7 @@ import (
 
 	"github.com/arduino/go-paths-helper"
 
-	"github.com/arduino/arduino-cli/arduino/resources"
+	"github.com/zmarcantel/arduino-cli/arduino/resources"
 	"github.com/arduino/go-properties-orderedmap"
 	"go.bug.st/relaxed-semver"
 )

@@ -22,11 +22,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/arduino/arduino-cli/commands"
+	"github.com/zmarcantel/arduino-cli/commands"
 
-	"github.com/arduino/arduino-cli/common/formatter"
+	"github.com/zmarcantel/arduino-cli/common/formatter"
 
-	"github.com/arduino/arduino-cli/arduino/cores/packagemanager"
+	"github.com/zmarcantel/arduino-cli/arduino/cores/packagemanager"
 	"go.bug.st/relaxed-semver"
 )
 
